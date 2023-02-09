@@ -1,0 +1,33 @@
+---
+compiled_package_info:
+  package_name: Examples
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    admin_addr: c5aa4f965774e8e5d3c73bd04e2559caed3a88c4b7a89b8b602057f1511c7d64
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    mint_nft: c2ea8741f4224199b4f5e3bd5c29efe29ce05d7c4965dc653bd969d1653b85f6
+    source_addr: 408747e0d39e0dc78ea85a35de7f34cb7c92622e838948fa0fab7a7362d3d7f8
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: E4C01EFF9698AFFD9BCCC522EED576B8E2E0A82CB4869C4819949F9FBF7EAA49
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses:
+      mint_nft: c2ea8741f4224199b4f5e3bd5c29efe29ce05d7c4965dc653bd969d1653b85f6
+      source_addr: 408747e0d39e0dc78ea85a35de7f34cb7c92622e838948fa0fab7a7362d3d7f8
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - AptosToken
+  - MoveStdlib

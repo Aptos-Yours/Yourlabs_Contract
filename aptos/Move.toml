@@ -1,0 +1,12 @@
+[package]
+name = "Examples"
+version = "0.0.0"
+
+[dependencies]
+AptosFramework = { local = "../../../framework/aptos-framework" }
+AptosToken = { local = "../../../framework/aptos-token" }
+
+[addresses]
+aptos_framework = "0x1"
+# replace the admin_addr with the actual admin address we created using CLI
+admin_addr = "0xc5aa4f965774e8e5d3c73bd04e2559caed3a88c4b7a89b8b602057f1511c7d64"
